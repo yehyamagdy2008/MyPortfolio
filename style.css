@@ -639,11 +639,15 @@ h3.my-profession {
   overflow: hidden;
   cursor: pointer;
 }
-.portfolio .portfolio-item-inner .portfolio-img img {
+.portfolio .portfolio-item-inner .portfolio-img a {
   width: 100%;
   display: block;
   height: 295px;
   background-size: cover;
+  background-position: top;
+}
+.portfolio .portfolio-item-inner .portfolio-img a:hover {
+  background-position: bottom;
 }
 /* contact */
 .contact-title {
