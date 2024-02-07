@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./codeTalwind.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Clicker+Script&family=Kufam:wght@700&family=Montserrat:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -57,7 +65,6 @@
   <body class="hidden">
     <!-- Mane container start -->
     <div class="Main-container">
-      <div class="">kbdvsjb</div>
       <div class="aside">
         <div class="logo">
           <a href="#"> <span>Y</span>ehya </a>
@@ -69,31 +76,31 @@
           <li>
             <a class="active" href="#home">
               <i class="fa fa-home"></i>
-              Home
+              <span>Home</span>
             </a>
           </li>
           <li>
             <a href="#about">
               <i class="fa fa-user"></i>
-              About
+              <span>About</span>
             </a>
           </li>
           <li>
             <a href="#services">
               <i class="fa fa-list"></i>
-              Services
+              <span>Services</span>
             </a>
           </li>
           <li>
             <a href="#portfolio">
               <i class="fa fa-briefcase"></i>
-              Projects
+              <span>Projects</span>
             </a>
           </li>
           <li>
             <a href="#contact">
               <i class="fa fa-comments"></i>
-              Contact
+              <span>Contact</span>
             </a>
           </li>
         </ul>
@@ -143,7 +150,8 @@
                 <div class="row">
                   <div class="about-text padd-15">
                     <h3>
-                      I 'm Yehya Magdy and <span>Front End Develober</span>
+                      <span class="about-text-sp">I 'm Yehya Magdy and</span>
+                      <span class="jop">Front End Develober</span>
                     </h3>
                     <p>
                       Hello, my name is Yahya Magdy, I welcome you to my
@@ -497,6 +505,21 @@
                   </div>
                 </div>
               </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      style="
+                        background-image: url('./img/screencapture-yehyamagdy2008-github-io-book-the-hotels-2024-02-07-14_18_07.png');
+                        transition: 4s;
+                      "
+                      href="https://yehyamagdy2008.github.io/book-the-hotels/"
+                      target="_blank"
+                    >
+                    </a>
+                  </div>
+                </div>
+              </div>
               <!-- portfolio item end -->
               <!-- portfolio item start -->
 
@@ -687,7 +710,6 @@
     <script src="./code.js"></script>
     <script src="./switche.js"></script>
     <script src="./typed history.js"></script>
-    <script src="./lang.js"></script>
     <script>
       var typed = new Typed(".typing", {
         strings: ["Front End Develober"],

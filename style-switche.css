@@ -1,7 +1,7 @@
 .style-swicher {
   position: fixed;
-  right: 0;
-  top: 60px;
+  inset-inline-end: 0;
+  inset-block-start: 60px;
   padding: 15px;
   width: 200px;
   border: 1px solid var(--bg-black-50);
@@ -22,9 +22,9 @@
   font-size: 20px;
   background: var(--bg-black-100);
   color: var(--text-black-900);
-  right: 100%;
+  inset-inline-end: 100%;
   border: 1px solid var(--bg-black-50);
-  margin-right: 25px;
+  margin-inline-end: 25px;
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 50%;
@@ -33,10 +33,10 @@
   line-height: 40px;
 }
 .style-swicher .style-swither-toggler {
-  top: 0;
+  inset-block-start: 0;
 }
 .style-swicher .day-night {
-  top: 55px;
+  inset-block-start: 55px;
 }
 .style-swicher h4 {
   margin: 0 0 10px;
